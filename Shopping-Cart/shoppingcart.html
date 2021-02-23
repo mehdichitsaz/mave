@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<title>Shopping Cart Mave Groceries</title> 
+       <link rel="stylesheet" type="text/css" href="shoppingcart.css">
+	   <script src="https://kit.fontawesome.com/445988e632.js" crossorigin="anonymous"></script> 
+       <meta charset="UTF-8">
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<header class="header">
+
+   <a href="../index.html" class="logo"><img src="logo.png" alt="logo" width="65px" ></a>
+   <a href="shoppingcart.html"> <button class="cart"> <img src="shopping-cart.png" alt="shopping-cart" width="50%">  </button> </a>
+   <a href="../signup-and-login/Login.html"> <button class="btn"> Login  </button> </a> 
+
+</header>
+
+<nav class="navbar-2">
+  <a><h2> <a href="../index.html" class="sec"> <u>Home</u> &nbsp;&nbsp;  / </a> &nbsp;&nbsp; <a href="../index.html" class="sec"> <u> Shopping Cart</u></h2></a>
+</nav>
+
+<body> 
+ <!-- Title -->
+	<div class="title"> 
+	 <span class="text"> Shopping Cart </span> 
+	</div> 
+	
+	<!-- Creating Table -->
+   <div class="cart-page">
+      <table>
+	     <tr>
+    <!-- First row -->
+		   <th>Product</th>
+			<th>Quantity</th>
+			<th>Price</th>
+		 </tr>
+		 <tr>
+		  <td>
+			 <!-- Second Row-->
+			 <div class="cart-info">
+			   <img src="clorax.png"> 
+				 <div>
+				  <p>Clorox Disinfecting Wipes</p> <!--Product Name -->
+			       <medium> Product Price: $5.49</medium><br><br> <!--Product Price -->
+				   <button class="btnED">Delete</button> <!--Delete Button -->
+				 </div>
+			 </div>
+	      </td>
+		 <td><input type="number" value="1"></td> <!-- Quantity -->
+		<td>$5.49</td><!--Final Price of Produce -->
+			
+		 </tr>
+		 <!-- Third Row -->
+		 <tr>
+		    <td>
+			   <div class="cart-info">
+			       <img src="blackfabreeze.png"> 
+				   <div>
+				       <p>Fabreeze</p><!--Product Name -->
+					   <medium>Product Price: $3.99</medium><br><br><!--Product Price -->
+					   <button class="btnED">Delete</button> <!--Delete Button -->
+				   </div>
+			   </div>
+			</td>
+			<td><input type="number" value="2"></td>
+			<td>$7.98</td><!--Final Price of Produce -->
+		 </tr>
+		 <!-- Fourth Row-->
+		 <tr>
+		    <td>
+			   <div class="cart-info">
+			       <img src="bounty.png"> 
+				   <div>
+				       <p>Bounty Paper Towel</p><!--Product Name -->
+					   <medium>Product Price: $4.99</medium><br><br><!--Product Price -->
+					   <button class="btnED">Delete</button><!--Delete Button -->
+				   </div>
+			   </div>
+			</td>
+			<td><input type="number" value="1"></td>
+			<td>$4.99</td><!--Final Price of Produce -->
+			
+		 </tr>
+	  </table>
+	  <!-- New table for Total Price including taxes -->
+	  <div class="total-price"> 
+	    <table> 
+		  <tr>
+		    <td><h2>Order Summary</h2></td>
+		  </tr> 	
+		  <tr>
+		    <td>Number of Items: </td>
+			<td>4</td>
+		  </tr> 		  
+		  <tr>
+		    <td>Total before tax:</td>
+			<td>$18.46</td>
+		  </tr> 
+	      <tr>
+		    <td>Estimated GST:</td>
+			<td>$1.10</td>
+		  </tr> 
+		   <tr>
+		    <td>Estimated QST:</td>
+			<td>$0.97</td>
+		  </tr>
+		  <tr>
+		    <td><h3>Order Total:<h3></td> <!--Final Price-->
+			<td><h3>$20.53</h3></td>
+		  </tr>
+	     </table>
+	  </div>
+    <!-- Buttons for Continue shopping and Pay now)-->
+	<div class="container">
+     <a href="../index.html"><button class="btn1">Continue Shopping</button> <br> </a>
+	 <button class="btn1">Pay Now</button>
+    </div>
+   </div>
+</body>
+
+<!--Footer -->
+<footer>
+   
+
+   <div class="text-ma">
+      <h4>MAVE: SOEN-287 project </h4>
+          <a href="#team"> check out our team members</a>
+   </div>
+   
+   <br><br><br>
+
+   <div class="social-menu">
+      <ul>
+      <li><a href="#facebook"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#instgram"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#twitter"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#reddit"><i class="fab fa-reddit-alien"></i></a></li>
+      </ul>
+   </div>
+   <p class="copyright">MAVE GROCERIES © 2021</p>
+   
+</footer>
+</html> 

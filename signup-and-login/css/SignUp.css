@@ -1,0 +1,390 @@
+
+/* BG */
+body{
+	
+    background-image: url("img/grocerylogin.jpg"); 
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0 ;
+    font-family: Futura
+}
+
+@font-face {
+	
+    font-family: Futura;
+    src: url("Fonts/futur.ttf");
+	
+  }
+  
+h1{
+	
+	margin: 0;
+	padding: 0 0 5px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.header{
+	
+	background-color: white;
+	
+}
+/* Sign Up Box */
+.container{
+	
+	width: 300;
+	height: 620;
+	background: whitesmoke;
+	border-radius: 25px;
+	color: black;
+	top: 83%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 76px;
+
+}
+
+.container p{
+	
+	margin-left: -30%;
+	margin-top: -2%;
+	padding: 0;
+	font-weight: bold;
+	
+}
+
+/* Inputs */
+.container input[type="text"]{
+	
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	width: 235px;
+	color: white;
+	margin-left: -30%;
+	
+}
+.container input[type="password"]{
+	
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	width: 235px;
+	color: white;
+	margin-left: -30%;
+	
+}
+.container input[type="email"]{
+	
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	width: 235px;
+	color: white;
+	margin-left: -30%;
+	
+}
+
+/* Button */
+.container input[type="submit"]{
+	
+	border: none;
+	outline: none;
+	height: 40px;
+	background: black;
+	color: white;
+	font-size: 18px;
+	border-radius: 20px;
+	width: 250px;
+	margin-left: -51px;
+	margin-top: 12px;
+	border: 2px solid black;
+
+}
+/* Terms and Conditions */
+.container input[type="checkbox"]{
+	
+	margin-top: 0px;
+	margin-left: -30px;
+	height:16px;
+	width:16px;
+	float:left;
+}
+/* Button Hover */
+.container input[type="submit"]:hover{
+	
+	cursor: pointer;
+	background: #310505;
+	background-color: white ;
+    color: black;
+    transition: 0.5s;
+	
+}
+
+/* Forgot Password */
+.container a{
+	
+	text-decoration: none;
+	color: blue;
+}
+
+.container a:hover{
+	
+	color: purple;
+}
+
+h6{
+	
+	margin-top: -5%;
+	margin-left: -50%;
+
+}
+
+.icon{
+	
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -47px;
+	left: calc(50% - 50px);
+	
+}
+
+.container input{
+	
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+label{
+	
+	display: block;
+	float: left;
+	
+}
+
+.side{
+	
+	width: 100%;
+	height: 120%;
+	object-fit: fill;
+	
+}
+
+.logo{
+    
+    width: 100%;
+    margin-top: 0px;
+    transition: 0.5s
+	
+}
+
+.logo :hover {
+    
+	filter: invert(1);
+	transition: 0.5s
+     
+}
+/* Cart icon */
+.cart{
+    
+    width: 100px;
+    height: 100px ;
+    z-index: 100;
+    position:absolute ;
+    top: -15px;
+    right: 0px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    transition: 0.5s;
+    
+}
+/* Cart Icon Effect */
+.cart:hover{
+	
+    filter: invert(0.5);
+    transform: translate(0,-5px);
+    transition: 0.5s;
+}
+/* Footer */
+footer {
+	
+    position: relative;
+	bottom: 0;
+    clear: both;
+    background-color: #310505;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.9;
+    font-size: 13px;
+    padding: 15px;
+    text-align: left
+    
+  }
+  
+.copyright {
+	
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+	
+}
+
+.cprMessage{
+	
+	font-size: 20px;
+	text-align: center;
+	margin: 0%;
+	
+}
+
+a{
+	text-decoration: none;
+	color:white;
+	font: 1em sans-serif;
+	
+}
+
+    
+.socials ul{
+	
+	position: absolute;
+	bottom: 12%;
+	left:50% ;
+	padding: 0%;
+	margin: 0%;
+	transform: translate(-50%, -50%);
+	display: flex;
+
+} 
+
+.socials ul li{
+	
+	list-style:none ;
+	margin: 0 15px;
+	
+}
+
+.socials ul li .fab{
+	
+    font-size: 20px;
+    line-height: 40px;
+    transition: 0.5s;
+    color: #000;
+	
+ }
+
+ .socials ul li .fab:hover{
+	 
+    color: #ffffff;
+}
+
+ .socials ul li a{
+	 
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.5s;
+
+ }
+ /* Shift when hover */
+.socials ul li a:hover{
+	
+    transform: translate(0,-10px);
+	
+}
+/* Hover color */
+.socials ul li:nth-child(1) a:hover{
+	
+    background-color:#3b5999;
+	
+}
+
+.socials ul li:nth-child(2) a:hover{
+	
+    background-color:#e4405f;
+	
+}
+
+.socials ul li:nth-child(3) a:hover{
+	
+    background-color:#55acee;
+	
+}
+
+.socials ul li:nth-child(4) a:hover{
+	
+    background-color:#ff5700;
+	
+}
+
+/* Nav Bar */
+.nav{
+	
+    background-color: whitesmoke;
+    z-index: 300;
+    text-align: center;
+    padding: 5px;
+    transition: 0.3s;
+	
+}
+
+
+.nav:hover{
+	
+    background-color: rgba(255, 149, 149, 0.952);
+    transition: 0.5s;
+	
+}
+
+.responsive {
+	
+    width: 100%;
+    height: auto;
+    
+}
+
+/* button */
+.btn{
+	
+    position:absolute ;
+    top: 15px;
+    right: 100px;
+    width: 90px;
+    height: 40px ;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: black;
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+	
+}
+
+.btn:hover{ 
+
+    background-color: white ;
+    color: black;
+    transition: 0.5s;
+	cursor: pointer;
+
+}

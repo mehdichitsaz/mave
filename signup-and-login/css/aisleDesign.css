@@ -1,0 +1,352 @@
+
+body {
+	
+	background-color: black;
+    background-attachment: fixed;
+    margin:0 ;
+    font-family: Futura
+	
+}
+.header{
+	
+background-color: rgb(255, 255, 255);
+
+}
+
+@font-face {
+	
+font-family: Futura;
+src: url("Fonts/futur.ttf");
+
+  }
+
+h3{
+	
+color: whitesmoke;
+text-align: center;
+font-size: 30px;
+margin: 0;
+padding-top: 10px;
+
+}
+	  
+
+#container{
+
+clear: both;
+background-color: black;
+	
+}
+
+.section{
+width:100%;
+height: auto;
+}
+
+.gallery{
+	
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin: 50px 0;
+
+}
+	  
+.logo{
+
+width: 100%;
+margin-top: 0px;
+transition: 0.5s;
+
+}
+
+.logo :hover {
+    
+filter: invert(1);
+transition: 0.5s;
+     
+}
+
+.cart{
+    
+	width: 100px;
+    height: 100px ;
+    z-index: 100;
+    position:absolute ;
+    top: -15px;
+    right: 0px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    transition: 0.5s;
+    
+}
+
+.cart:hover{
+	
+    filter: invert(0.5);
+    transform: translate(0,-5px);
+    transition: 0.5s;
+	
+}
+
+.content:hover{
+	
+box-shadow: 0 0 24px whitesmoke;
+transform: translate(0px, -8px);
+transition: .6s;
+}
+ 
+.productList img{
+	
+width: 200px;
+height: 200px;
+text-align: center;
+margin: 0 auto;
+display: block;
+
+}
+
+p{
+	
+text-align: center;
+color: #b2bec3;
+padding: 0 8px;
+}
+
+h6{
+	
+font-size: 26px;
+text-align: center;
+color: #222f3e;
+margin: 0;
+
+}
+	  
+footer {
+	
+position: relative;
+bottom: 0;
+clear: both;
+background-color: #310505;
+color: #ffffff;
+text-align: center;
+line-height: 0.9;
+font-size: 13px;
+padding: 15px;
+text-align: left
+    
+  }
+
+ul{
+	
+list-style-type: none;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
+
+li{
+	
+padding: 5px;
+
+}
+.fa{
+	
+color: #ff9f43;
+font-size: 26px;
+transition: .4s;
+
+}
+
+.fa:hover{
+	
+transform: scale(1.3);
+transition: .6s;
+
+}
+	  
+.copyright {
+	
+text-align:center;
+padding-top:24px;
+opacity:0.3;
+font-size:13px;
+margin-bottom:0;
+
+}
+
+.cprMessage{
+	
+font-size: 20px;
+text-align: center;
+margin: 0%;
+
+}
+
+a{
+	
+text-decoration: none;
+color:white;
+font: 1em sans-serif;
+
+}
+    
+
+.socials ul{
+	
+position: absolute;
+bottom: 12%;
+left:50% ;
+padding: 0%;
+margin: 0%;
+transform: translate(-50%, -50%);
+display: flex;
+
+ } 
+
+.socials ul li{
+	
+list-style:none ;
+margin: 0 15px;
+
+}
+
+.socials ul li .fab{
+	
+font-size: 20px;
+line-height: 40px;
+transition: 0.5s;
+color: #000;
+
+}
+
+.socials ul li .fab:hover{
+	
+color: #ffffff;
+
+}
+
+.socials ul li a{
+	
+position: relative;
+display: block;
+width: 40px;
+height: 40px;
+border-radius: 50px;
+background-color: #fff;
+text-align: center;
+transition: 0.5s;
+
+ }
+ 
+.socials ul li a:hover{
+	
+transform: translate(0,-10px);
+
+}
+
+.socials ul li:nth-child(1) a:hover{
+
+background-color:#3b5999;
+	
+}
+
+.socials ul li:nth-child(2) a:hover{
+	
+background-color:#e4405f;
+
+}
+
+.socials ul li:nth-child(3) a:hover{
+
+background-color:#55acee;
+
+}
+
+.socials ul li:nth-child(4) a:hover{
+
+background-color:#ff5700;
+
+}
+
+.nav{
+	
+background-color: whitesmoke;
+z-index: 300;
+text-align: center;
+padding: 5px;
+transition: 0.3s;
+}
+
+
+.nav:hover{
+	
+background-color: rgba(255, 149, 149, 0.952);
+transition: 0.5s;
+
+}
+
+button.buy{
+	
+text-align: center;
+font-size: 24px;
+color: black;
+width: 100%;
+padding: 15px;
+border:0px;
+outline: none;
+cursor: pointer;
+margin-top: 5px;
+background-color: whitesmoke;
+
+      }
+	  
+.content{
+	
+width: 24%;
+margin: 15px;
+box-sizing: border-box;
+float: left;
+text-align: center;
+padding-top: 10px;
+transition: .4s;
+
+}
+	 
+	  
+@media(max-width: 1000px){	
+
+.content{width: 46%;}
+
+}
+
+.btn{
+	
+    position:absolute ;
+    top: 15px;
+    right: 100px;
+    width: 90px;
+    height: 40px ;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: black;
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+	
+}
+
+.btn:hover{ 
+
+    background-color: white ;
+    color: black;
+    transition: 0.5s;
+
+}

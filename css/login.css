@@ -1,0 +1,300 @@
+
+/* Background */
+body{
+	
+    background-image: url("img/grocerylogin.png"); 
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0 ;
+    font-family: Futura
+	
+}
+
+@font-face {
+	
+    font-family: Futura;
+    src: url("Fonts/futur.ttf");
+	
+}
+
+h1{
+	
+	margin: 0px;
+	padding: 0 0 5px;
+	text-align: center;
+	font-size: 22px;
+	padding: -6px;
+	
+}
+
+header{
+	
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/* Login Box */
+.container{
+	
+	width: 320;
+	height: 420;
+	background: whitesmoke;
+	border-radius: 25px;
+	color: black;
+	top: 77%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	
+}
+
+.container p{
+	
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	
+}
+
+.container input{
+	
+	width: 100%;
+	margin-bottom: 20px;
+}
+/* Text input settings */
+.container input[type="text"], input[type="password"]{
+	
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	
+}
+/* Button settings */
+.container input[type="submit"]{
+	
+	border: none;
+	outline: none;
+	height: 40px;
+	background: black;
+	color: white;
+	font-size: 18px;
+	border-radius: 20px;
+	border: 2px solid black;
+	
+}
+/* Hover effect */
+.container input[type="submit"]:hover{
+	
+	cursor: pointer;
+	background: #310505;
+	background-color: white ;
+    color: black;
+    transition: 0.5s;
+	
+}
+
+.container a{
+	
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #868a8f;
+	
+}
+
+.container a:hover{
+	
+	color: blue;
+}
+.icon{
+	
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+	
+}
+
+.side{
+	
+	width: 100%;
+	height: 107%;
+	object-fit: fill;
+	
+}
+
+.logo{
+	
+    width: 100%;
+    margin-top: 0px;
+    transition: 0.5s;
+	
+}
+
+.logo :hover {
+    
+	filter: invert(1);
+	transition: 0.5s;
+     
+}
+
+/* Cart */
+.cart{
+    
+    width: 100px;
+    height: 100px ;
+    z-index: 100;
+    position:absolute ;
+    top: -15px;
+    right: 0px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    transition: 0.5s;
+    
+}
+/* Cart Icon hover */
+.cart:hover{
+	
+    filter: invert(0.5);
+    transform: translate(0,-5px);
+    transition: 0.5s;
+	
+}
+
+/* Footer */
+footer {
+	
+    position: relative;
+    clear: both;
+	bottom: 0;
+    background-color: #310505;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.9;
+    font-size: 13px;
+    padding: 15px;
+    text-align: left;
+    
+  }
+  
+.copyright {
+	
+	text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+	
+}
+
+.cprMessage{
+	
+	font-size: 20px;
+    text-align: center;
+    margin: 0%;
+	
+}
+
+a{
+	
+	text-decoration: none;
+    color:white;
+    font: 1em sans-serif;
+	
+}
+
+    
+
+.socials ul{
+	
+	position: absolute;
+    bottom: 12%;
+    left:50% ;
+    padding: 0%;
+    margin: 0%;
+    transform: translate(-50%, -50%);
+    display: flex;
+
+} 
+
+.socials ul li{
+	
+	list-style:none ;
+    margin: 0 15px;
+	
+}
+
+.socials ul li .fab{
+	
+	font-size: 20px;
+    line-height: 40px;
+    transition: 0.5s;
+    color: #000;
+	
+}
+
+.socials ul li .fab:hover{
+	
+	color: #ffffff;
+	
+}
+
+.socials ul li a{
+	
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.5s;
+
+ }
+/* Shift when hovering */
+.socials ul li a:hover{
+	
+	transform: translate(0,-10px);
+	
+}
+ /* Social media hover color */
+.socials ul li:nth-child(1) a:hover{
+	
+    background-color:#3b5999;
+}
+
+.socials ul li:nth-child(2) a:hover{
+	
+    background-color:#e4405f;
+}
+
+.socials ul li:nth-child(3) a:hover{
+	
+    background-color:#55acee;
+}
+
+.socials ul li:nth-child(4) a:hover{
+	
+    background-color:#ff5700;
+}
+/* Nav bar */
+.nav{
+	
+    background-color: whitesmoke;
+    z-index: 300;
+    text-align: center;
+    padding: 5px;
+    transition: 0.3s;
+	
+}
+

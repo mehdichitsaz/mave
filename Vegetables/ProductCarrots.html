@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+   <head>
+		<link rel="stylesheet" href="../css/products.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<script src="https://kit.fontawesome.com/445988e632.js" crossorigin="anonymous"></script> 
+		<title> Mave | Product Carrots </title>
+   </head>
+   
+	<header class="header">
+		<a href="../index.html" class="logo"><img src="../img/logo.png" alt="logo" class = "logo"></a>
+		<a href="#login"> <button class="cart"> <img src="../img/shopping-cart.png" alt="shopping-cart" width="50%">  </button> </a>
+		<a href="#login"> <button class="btn"> Login  </button> </a> 
+	</header>
+
+	<nav class="navbar-2">
+		<a><h3> <a href="../index.html" class="sec"> <u>Home</u> &nbsp;&nbsp;  / </a> &nbsp;&nbsp; <a href="AisleVegetables.html" class="sec"> <u> Vegetable section</u>&nbsp;&nbsp; / </a>&nbsp;&nbsp; Carrots </h3></a>
+	</nav>  
+		 
+	<body class = "page-contains">
+		<div class = "wrapping">
+			<table>
+				<tr>
+					<!--product image -->
+					<td rowspan = "2" class = "pic" > 
+						<img src="../img/carrot.png" alt = "carrot" id = "center" />
+					</td>
+					
+					<td class = "aisle"> <br><br>
+						<!--product name -->
+						<div class = "prodname">
+							Carrots
+						</div>
+						
+						<div class = "prodquantity">
+							<!--product size -->
+							Size
+							<div style="line-height:55%;"><br></div>
+							<select name = "size" id = "size">
+								<option value = "small">small</option>
+								<option value = "medium">medium</option>
+								<option value = "large">large</option>		
+							</select>
+							<div style="line-height:55%;"><br>
+							</div>
+							<!--product type -->
+							Type
+							<div style="line-height:55%;"><br></div>
+							<select name = "type" id = "typ">
+								<option value = "wcarrots"> Whole carrots  </option>
+							   <option value = "bcarrots">  Baby carrots (-1.50$)</option>
+							   <option value = "scarrots">  Shreded carrots (-1.00$)</option>		
+							</select>
+							
+							<!--product price -->				
+							<div class = "price">
+								<div style="line-height:75%;"><br></div>
+								3.97$
+							</div>
+							
+							<!--product description-->
+							<div style="line-height:45%;"><br></div>
+								Removed from the ground yesterday
+								<label for="desc"></label>
+								<br>
+								<input type="button" class = "button" id="desc" name="desc" value = "More description">
+							<div style="line-height:75%;"><br></div>  
+						</div>
+					</td>
+				</tr>
+				
+				<td class = "last">
+					<table class = "auxiliarytable">
+						<tr>
+							<td class = "quantitydesired">
+								Quantity desired
+								<label for="qty"></label>
+								<input class="quantity" id="qty" min="1" max = "10" name="qty" value="1" type="number">
+								 
+								<!--quantity in stock-->
+								<div class = "stock">25 in stock;</div>
+							</td>
+					
+							<td> 
+								<label for="crt"></label>
+								<a href = "../Shopping-Cart/shoppingcart.html">  <input type="button" class = "cartbt" id="crt" name="crt" value = "Add to cart"  > </a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</table>
+		</div>
+	   
+		<!-- FOOTER -->
+		<footer>
+			<div class="text-ma">
+				<h4>MAVE: SOEN-287 project </h4>
+			<a href="#team"> check out our team members</a>
+			</div>
+	   
+			<br><br><br>
+
+			<div class="social-menu">
+				<ul>
+				<li><a href="#facebook"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="#instgram"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#twitter"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#reddit"><i class="fab fa-reddit-alien"></i></a></li>
+				</ul>
+			</div>
+		   <p class="copyright">MAVE GROCERIES © 2021</p>
+		</footer>
+	</body>
+</html>

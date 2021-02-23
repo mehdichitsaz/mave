@@ -1,0 +1,413 @@
+body {
+	
+	background-color: black;
+    background-attachment: fixed;
+    margin:0 ;
+    font-family: Futura
+	
+}
+.header{
+	
+background-color: rgb(255, 255, 255);
+
+}
+
+@font-face {
+	
+font-family: Futura;
+src: url("Fonts/futur.ttf");
+
+  }
+
+
+
+.logo{
+
+width: 100%;
+margin-top: 0px;
+transition: 0.5s;
+
+}
+
+.logo:hover{
+ filter: invert(1) ; 
+ transition: 0.5s;        
+}
+
+.cart{
+    
+	  width: 100px;
+    height: 100px ;
+    z-index: 100;
+    position:absolute ;
+    top: -15px;
+    right: 0px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    transition: 0.5s;
+    
+}
+
+.cart:hover{
+	
+    filter: invert(0.5);
+    transform: translate(0,-5px);
+    transition: 0.5s;
+	
+}
+header{
+    background-color: rgb(255, 255, 255);
+
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    font-family: Futura;
+    
+}
+
+h4{
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.out-the-box{
+    line-height: 0.5;
+}
+
+
+
+
+.logo :hover {
+    
+filter: invert(1);
+ transition: 0.5s
+     
+}
+
+
+
+.cart{
+    
+    width: 100px;
+    height: 100px ;
+    z-index: 100;
+    position:absolute ;
+    top: -15px;
+    right: 0px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    transition: 0.5s;
+    
+}
+
+.cart:hover{
+    filter: invert(0.5);
+    transform: translate(0,-5px);
+    transition: 0.5s;
+}
+
+.responsive {
+    width: 100%;
+    height: 700px;
+    
+}
+
+ 
+
+
+.btn{
+    position:absolute ;
+    top: 15px;
+    right: 100px;
+    width: 90px;
+    height: 40px ;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+    background-color: black;
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn:hover{ 
+    background-color: white ;
+    color: black;
+    transition: 0.5s;
+}
+.navbar-2{
+    background-color: whitesmoke;
+    z-index: 300;
+    text-align: center;
+    padding: 5px;
+    transition: 0.3s;
+}
+.sec{
+color:#460707b4;
+}
+
+
+.prodname{
+  color: white;
+  margin-left:20%;
+  font-size:55px;
+  font-weight: bold;
+}
+.prodquantity{
+  color: white;
+  
+  margin-left:20%;
+  font-size:20px;
+  
+}
+
+.pic{
+  width:55%;
+  border-right: solid 2px whitesmoke;
+}
+.price{
+  font-size:25px;
+  font-weight: bold;
+  
+}  
+
+img {
+  width: 70%;
+  display: block;
+
+}
+	
+	
+.logo{
+    
+
+    width: 65px;
+    margin-top: 0px;
+    transition: 0.5s
+}
+
+.button {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 10px;
+  color: black(255, 255, 255);
+  background-color: white;
+  display: inline-block;
+  height:80%;
+  width:100%;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.button:hover{
+  background-color: black ;
+  color: white;
+  border: 3px solid rgb(116, 0, 0); 
+  transition: 0.5s;
+}
+
+.page-contains {
+  position: relative;
+  min-height: 100vh;
+}
+table,  td {
+
+   height:100px;
+  background-color:black;
+    border-collapse: collapse;
+    border-spacing: 0;
+            width: 70%;
+ 
+    margin: auto;
+   
+         }
+
+.auxiliarytable{
+  height:100px;
+  width:100%;
+  margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapping {
+  padding-bottom: 15rem;    
+}
+
+.last{
+  border-top: solid 2px whitesmoke;
+}
+
+.aisl{
+  
+  padding: 10px;
+  vertical-align:top;
+  color: white;
+  font-size:20px;
+  
+}
+
+
+
+
+#typ{
+  padding: 5px 5px;
+  width: auto;
+  font-size:20px;
+}
+
+#qty{
+width:60%;
+  background-color:black;
+  color:white;
+  text-align:center;
+  height:30%;
+  font-size:20px;
+}
+.perqty{
+ font-size:15px; 
+  
+}
+select{
+  color:white;
+  background-color:black;
+   -moz-appearance: none;
+  
+  -webkit-appearance: none;
+}
+select::-ms-expand {
+  display: none;
+}
+
+.cartbt{
+  text-align: center;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  height:80%;
+  width:80%;
+  border-radius: 50px;
+  border: 2px solid whitesmoke; 
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  transform: translate(0px, +8px)
+}
+
+.cartbt:hover{
+  background-color: white ;
+    color: black;
+    transform: translate(26px, 8px);
+    transition: 0.5s;
+}
+.quantitydesired{
+  text-align:center;
+  vertical-align:top;
+  font-size:30px;
+  width:35%;
+  color:white;
+}
+
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+   
+    clear: both;
+    background-color: #460707b4;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.9;
+    font-size: 13px;
+    padding: 15px;
+    text-align: left;
+    
+  }
+ .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;}
+
+    .text-ma{
+        font-size: 20px;
+        text-align: center;
+        margin: 0%;
+    }
+
+    a{
+        text-decoration: none;
+        color:white;
+        font: 1em sans-serif;
+    }
+
+    
+    /*for the social media icons*/
+    .social-menu ul{
+        position: absolute;
+        bottom: 12%;
+        left:50% ;
+        padding: 0%;
+        margin: 0%;
+        transform: translate(-50%, -50%);
+        display: flex;
+
+    } 
+
+   .social-menu ul li{
+      list-style:none ;
+      margin: 0 15px;
+   }
+
+   .social-menu ul li .fab{
+    font-size: 20px;
+    line-height: 40px;
+    transition: 0.5s;
+    color: #000;
+ }
+
+ .social-menu ul li .fab:hover{
+    color: #ffffff;
+}
+
+ .social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.5s;
+
+ }
+.social-menu ul li a:hover{
+    transform: translate(0,-10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color:#3b5999;
+}
+
+.social-menu ul li:nth-child(2) a:hover{
+    background-color:#e4405f;
+}
+
+.social-menu ul li:nth-child(3) a:hover{
+    background-color:#55acee;
+}
+
+.social-menu ul li:nth-child(4) a:hover{
+    background-color:#ff5700;
+}

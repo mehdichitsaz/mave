@@ -1,0 +1,245 @@
+body{
+    background-image: url("../img/BG.png"); 
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0 ;
+    font-family: Futura
+}
+
+@font-face {
+    font-family: Futura;
+    src: url("Fonts/futur.ttf");
+  }
+
+header{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    font-family: Futura;
+    
+}
+
+h4{
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.out-the-box{
+    line-height: 0.5;
+}
+
+
+
+.logo{
+    
+
+    width: 100%;
+    margin-top: 0px;
+    transition: 0.5s
+}
+
+.logo :hover {
+    
+filter: invert(1);
+ transition: 0.5s
+     
+}
+
+
+
+.cart{
+    
+    width: 100px;
+    height: 100px ;
+    z-index: 100;
+    position:absolute ;
+    top: -15px;
+    right: 0px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    transition: 0.5s;
+    
+}
+
+.cart:hover{
+    filter: invert(0.5);
+    transform: translate(0,-5px);
+    transition: 0.5s;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    
+}
+
+ 
+
+
+.btn{
+    position:absolute ;
+    top: 15px;
+    right: 100px;
+    width: 90px;
+    height: 40px ;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: black;
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn:hover{ 
+    background-color: white ;
+    color: black;
+    transition: 0.5s;
+
+}
+
+
+
+.navbar-2{
+    background-color: whitesmoke;
+    z-index: 300;
+    text-align: center;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+
+
+.container{
+    margin: 20px 5%;
+    width: 90%;
+    text-align: center;
+    
+}
+
+
+.categories{
+    background-color: rgb(0, 0, 0);
+    width: max-content;
+    margin: 25px ;
+    display: inline-block;
+    transition: 0.5s;
+    
+    
+}
+
+.categories:hover{
+     box-shadow:0 0 10px white;
+     transform: scale(1.1);
+     transition: 0.5s;
+     
+
+}
+
+.item-image{
+    max-height:324px;
+    max-width: 576px;
+    padding: 2px ;
+}
+
+
+
+
+
+footer {
+    position: relative;
+    clear: both;
+    background-color: #460707b4;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.9;
+    font-size: 13px;
+    padding: 15px;
+    text-align: left;
+    
+  }
+  
+  .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;}
+
+    .text-ma{
+        font-size: 20px;
+        text-align: center;
+        margin: 0%;
+    }
+
+    a{
+        text-decoration: none;
+        color:white;
+        font: 1em sans-serif;
+    }
+
+    
+    /*for the social media icons*/
+    .social-menu ul{
+        position: absolute;
+        bottom: 12%;
+        left:50% ;
+        padding: 0%;
+        margin: 0%;
+        transform: translate(-50%, -50%);
+        display: flex;
+
+    } 
+
+   .social-menu ul li{
+      list-style:none ;
+      margin: 0 15px;
+   }
+
+   .social-menu ul li .fab{
+    font-size: 20px;
+    line-height: 40px;
+    transition: 0.5s;
+    color: #000;
+ }
+
+ .social-menu ul li .fab:hover{
+    color: #ffffff;
+}
+
+ .social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.5s;
+
+ }
+.social-menu ul li a:hover{
+    transform: translate(0,-10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color:#3b5999;
+}
+
+.social-menu ul li:nth-child(2) a:hover{
+    background-color:#e4405f;
+}
+
+.social-menu ul li:nth-child(3) a:hover{
+    background-color:#55acee;
+}
+
+.social-menu ul li:nth-child(4) a:hover{
+    background-color:#ff5700;
+}
